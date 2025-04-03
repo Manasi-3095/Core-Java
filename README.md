@@ -1,12 +1,12 @@
 # Core-Java
 
 # WAP to check the age of the customer whether it is more than 18 or not
+
 package learn;
 class ageexception extends Exception{
 	ageexception(String Message){
 		super(Message);
 	}
-	
 }
 public class cstmmovie {
 	
@@ -17,11 +17,8 @@ public class cstmmovie {
 		}
 		else {
 			System.out.println("Enjoy Your Movie");
-			
 		}
 	}
-	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -31,9 +28,7 @@ public class cstmmovie {
 		catch(ageexception e) {
 			System.out.println(e.getMessage());
 		}
-
 	}
-
 }
 
  # WAP to check the age of the customer by taking the input from the user....
@@ -48,9 +43,6 @@ class ageexception extends Exception
 		super(Mess);
 	}
 }
-
-
-
 public class customexception 
 {
 	static void checkage (int age)throws ageexception
@@ -64,7 +56,6 @@ public class customexception
 			System.out.println("Welcom to the movieee.....");
 		}
 	}
-
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
@@ -76,7 +67,5 @@ public class customexception
 		catch(ageexception e){
 			System.out.println(e.getMessage());
 		}
-
 	}
-
 }
